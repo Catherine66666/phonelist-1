@@ -53,5 +53,7 @@ while True: ## REPL - Read Execute Program Loop
     elif cmd == "QUIT":
         save_phonelist(conn)
         exit()
+    elif cmd == "SAVE":
+        save_phonelist(conn)
     else:
         print('Unknown command: {}'.format(cmd))
